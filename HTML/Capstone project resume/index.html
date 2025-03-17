@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="head-section">
+        <img src="./me.jpg" alt="my-pic">
+        <h1>VASANTH M</h1>
+        <h2>B.tech ARTIFICIAL INTELLIGENCE AND DATASCIENCE</h2>
+        <p>9361391201</p>
+        <p>vasanth.codes12@gmail.com</p>
+        <p>Chinnasalem,Kallakurichi</p>
+        <p><a href="#">Linkedin</a></p>
+        <p><a href="#">Leetcode</a></p>
+        <p><a href="#">Github</a></p>
+    </header>
+    <div class="main-content">
+        <h2>CAREER OBJECTIVE</h2>
+        <h2>EDUCATION</h2>
+        <h2>SKILLS</h2>
+        <h3>PROGRAMMING LANGUAGES</h3>
+        <h3>FRONTEND TECHNOLOGIES</h3>
+        <h3>BACKEND TECHNOLOGIES</h3>
+        <h3>TOOLS & PLATFORMS</h3>
+        <h2>PROJECTS</h2>
+        <h2>AREA OF INTEREST</h2>
+        <h2>LANGUAGES KNOWN</h2>
+    </div>
+    <footer>
+        <h2>PLACE : ERODE</h2>
+        <h2 id="date"></h2>
+        <h2>SIGNATURE</h2>
+        <h3>VASANTH M</h3>
+    </footer>
+    <script type="module">
+        import { getDate } from "./index.js";
+        document.getElementById("date").innerHTML = "DATE: " + getDate();
+    </script>
+</body>
+</html>
